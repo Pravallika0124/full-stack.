@@ -1,0 +1,38 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <form action="/login" method="post">
+        <input type="text" name="username" id="username"/>
+        <input type="password" name="password" id="password"/>
+        <input type="submit"/>
+    </form>
+</body>
+ 
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title><b>Electronic Essentials</b></title>
+    </head>
+<body>
+    <h1>{{ message }}</h1>
+    <a href="/products">View Product</a>
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label>Username:</label>
+        <input type="text" name="username">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <button type="submit">Login</button>
+</body>
+</html>
